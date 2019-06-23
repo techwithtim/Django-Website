@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+
+{% block title %}View All Lists{% endblock %}
+
+
+{% block content %}
+	{% if user.is_authenticated %}
+		<ul class="list-group">
+		{% for l in lists %}
+			<li class="list-group-item"><a href="/{{l.id}}"><h3>{{l.name}}</h3></a></li>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<h3>Login <a href="/login">Here</a></h3>
+	{% endif %}
+{% endblock %}
