@@ -1,2 +1,5 @@
 tasks:
   - init: pip3 install requirements.txt
+  - command: cd mysite
+  - command: python3 manage.py runserver
+  - command: gp preview $(gp url 8000)
