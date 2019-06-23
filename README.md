@@ -10,4 +10,4 @@ To run the website navigate to upper level "mysite" directory and run the comman
 Then you should see a local host link that you can copy into your browser to see the website.
 
 # Video Tutorials
-You can watch these video tutorials to learn how to use django: 
+You can watch these video tutorials to learn how to use django: https://www.youtube.com/watch?v=Z4D3M-NSN58&list=PLzMcBGfZo4-kQkZp-j9PNyKq7Yw5VYjq9
