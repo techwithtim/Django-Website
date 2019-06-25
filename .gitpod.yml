@@ -4,11 +4,9 @@ ports:
 tasks:
 - init: >
     python3 -m pip install -r requirements.txt &&
+    cd mysite
     python3 manage.py migrate
   command: >
-    echo "from locallibrary.settings import *" > locallibrary/local_settings.py &&
-    echo "ALLOWED_HOSTS = ['*']" >> locallibrary/local_settings.py &&
-    export DJANGO_SETTINGS_MODULE=locallibrary.local_settings &&
     python3 manage.py runserver 0.0.0.0:8080
 github:
     prebuilds:
