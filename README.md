@@ -16,6 +16,6 @@ You can watch these video tutorials to learn how to use django: https://www.yout
 
 You can also run Django-Website in Gitpod, a free online dev environment for GitHub:
 
-If you're intersted in a paid subscription with GitPod use the coupon code: **TECHWITHTIM2FQBMX**
+If you're intersted in a paid subscription with GitPod use the coupon code: **TECHWITHTIM19**
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/techwithtim/Django-Website/blob/master/README.md)
