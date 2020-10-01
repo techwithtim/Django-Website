@@ -1,5 +1,6 @@
 # Django-Website
 A very minimal website I built while learning Django.
+It is Good coding example of django with python.
 
 # Run The Website
 This website requires a few python packages:
